@@ -128,9 +128,135 @@ header {
 
 /*  ========================================================================  *\
 
-    @ M E D I A  Q U E R I E S  ~  7 6 8 p x
+    @ M E D I A  Q U E R I E S
     
 \*  ========================================================================  */
+
+@media (max-width: 1024px) {
+    header {
+        grid-area:      header;
+        position:       relative;
+    
+        width:          calc(100vw - 8vh);
+        height:         72vh;
+        margin-top:     18vh;
+        margin-bottom:  calc(100vh - 90vh - (2 * 0.555vh));
+        padding:        0vh 2vh 0vh 2vh;
+    
+        border-top:     0.555vh solid darkslateblue;  /*  4px  */
+        border-bottom:  0.555vh solid darkslateblue;  /*  4px  */
+        border-radius:  0vh 20vh 0vh 20vh;
+    }
+    
+        .profile-image {
+            position:    absolute;
+            top:         -12.5vh;
+            left:        4vh;
+    
+            width:       24vh;
+            height:      24vh;
+            margin:      0 auto;
+            padding:     0 auto;
+        }
+    
+            img {
+                width:             24vh;
+                height:            24vh;
+                border-radius:     50%;
+                padding:           0.1vh;
+                background-color:  rgba(0, 0, 0, 0.5);
+                transition:        all 1s ease-in-out;
+                filter:            grayscale(80%);
+            }
+    
+                img:hover {
+                    transform:  scale(1.3);      /*  130%  */
+                    filter:     grayscale(20%);
+                }
+    
+        .social-media {
+            position:        absolute;
+            top:             2vh;
+            left:            4vh;
+    
+            width:           calc(100vw - 20vh);
+            height:          4vh;
+            padding:         2vh 4vh 2vh 4vh;
+            letter-spacing:  1vh;
+    
+            border-bottom:   none;
+    
+            text-align:      right;
+        }
+    
+        .section-headline{
+            position:       absolute;
+            top:            12vh;
+            right:          4vh;
+    
+            width:          calc(100vw - 16vh);
+            height:         20vh;
+            padding:        2vh 4vw 0vh 4vw;
+
+            /*background-color: aqua;*/
+        }
+    
+        .section {
+            position:         absolute;
+            top:              34vh;
+            left:             4vh;
+            right:            4vh;
+    
+            width:            calc(100vw - 12vh);
+            height:           38vh;
+            margin:           0 auto;
+            padding:          0 auto;
+    
+            overflow:         scroll;
+            scrollbar-width:  none;
+    
+            border-top:       0.416vh solid darkslateblue;  /*  3px  */
+            border-bottom:    0vh;
+            border-radius:    0vh 0vh 0vh 15vh;
+
+            /*background-color: lime;*/
+        }	
+    
+            .section-write {
+                width:    auto;
+                height:   auto;
+                margin:   0 auto;
+                padding:  0 aUTO;
+            }
+    
+            .student-countainer-head,
+            .work-countainer-head {
+                width:         calc(100vw - 12vh);
+                height:        2.5vh;
+                margin:        0 auto;
+                padding:       4vh 0vh 2vh 0vh;
+
+                border-top:     0.416vh solid darkslateblue;  /*  3px  */
+                border-bottom:  0.138vh solid darkslateblue;  /*  1px  */
+            }
+    
+            .student-countainer-list,
+            .work-countainer-list {
+                width:       calc(100vw - 12vh);
+                min-height:  28vh;
+                margin:      0 auto;
+                padding:     2vh 0vh 4vh 0vh;
+            }
+    
+                .student-item, 
+                .work-item {
+                    width:             auto;
+                    height:            auto;
+                    margin:            1vh auto 1vh auto;
+                    padding:           0.5vh 4vw 0.5vh 4vw;
+                    background-color:  rgba(0, 128, 128, 0.1);
+                }  
+}
 
 @media (max-width: 768px) {
     header {
@@ -195,35 +321,38 @@ header {
             right:          4vh;
     
             width:          calc(100vw - 16vh);
-            height:         auto;
-            padding:        2vh 2vh 2vh 2vh;
+            height:         20vh;
+            padding:        2vh 4vw 0vh 4vw;
 
-            border-bottom:  0.416vh solid darkslateblue;  /*  3px  */
+            /*background-color: aqua;*/
         }
     
         .section {
             position:         absolute;
-            top:              29vh;
+            top:              34vh;
             left:             4vh;
             right:            4vh;
     
             width:            calc(100vw - 12vh);
-            height:           auto;
+            height:           38vh;
             margin:           0 auto;
             padding:          0 auto;
     
             overflow:         scroll;
             scrollbar-width:  none;
     
+            border-top:       0.416vh solid darkslateblue;  /*  3px  */
             border-bottom:    0vh;
             border-radius:    0vh 0vh 0vh 15vh;
+
+            /*background-color: lime;*/
         }	
     
             .section-write {
                 width:    auto;
                 height:   auto;
                 margin:   0 auto;
-                padding:  2vh 0vh 2vh 0vh;
+                padding:  0 aUTO;
             }
     
             .student-countainer-head,

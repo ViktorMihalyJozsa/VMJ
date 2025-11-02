@@ -86,7 +86,7 @@ a {
     h2, h3,
     .contact {
         font-size:       1.25rem;  /*    */
-        line-height:     2rem;     /*    */
+        line-height:     1.25rem;  /*    */
         letter-spacing:  0.15rem;  /*    */
     }
 
@@ -98,7 +98,7 @@ a {
       
     p {
         font-size:       1.666vh;  /*  12px  */
-        line-height:     1.833vh;  /*  110%  */
+        line-height:     1.666vh;  /*  110%  */
         letter-spacing:  0.138vh;  /*  1px   */
     }
     

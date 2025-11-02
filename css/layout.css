@@ -195,7 +195,7 @@ header {
             right:          4vh;
     
             width:          calc(100vw - 16vh);
-            height:         13vh;
+            height:         auto;
             padding:        2vh 2vh 2vh 2vh;
 
             border-bottom:  0.416vh solid darkslateblue;  /*  3px  */
@@ -208,7 +208,7 @@ header {
             right:            4vh;
     
             width:            calc(100vw - 12vh);
-            height:           42vh;
+            height:           auto;
             margin:           0 auto;
             padding:          0 auto;
     

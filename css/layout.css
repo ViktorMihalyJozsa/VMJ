@@ -195,7 +195,7 @@ header {
             right:          4vh;
     
             width:          calc(100vw - 16vh);
-            height:         24vh;
+            height:         26vh;
             padding:        2vh 4vw 0vh 4vw;
 
             /*background-color: aqua;*/
@@ -203,12 +203,12 @@ header {
     
         .section {
             position:         absolute;
-            top:              38vh;
+            top:              40vh;
             left:             4vh;
             right:            4vh;
     
             width:            calc(100vw - 12vh);
-            height:           32vh;
+            height:           30vh;
             margin:           0 auto;
             padding:          0 auto;
     

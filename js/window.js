@@ -1,15 +1,13 @@
-// Autor: V M J  &  AL
-// Date: 2024-11-06
-// Description: Ablak objektum
+/*  ========================================================================  *\
 
-// Az ablak objektum használata:
-// Az ablak objektum a böngészőablakot reprezentálja, és számos tulajdonságot és metódust tartalmaz, amelyek segítségével kezelhetjük az ablakot.
-// Az ablak objektum a globális objektumok egyike, tehát nem kell létrehoznunk, hogy használhassuk.
-// Az ablak objektum a window változóban található, így a window.alert() ugyanazt jelenti, mint az alert().
+    V M J  ~  W I N D O W . J S
 
-// Az ablak objektum tulajdonságai...
-// Az ablak objektum számos tulajdonságot tartalmaz, amelyek segítségével információkat szerezhetünk az ablakról.
-// A leggyakrabban használt tulajdonságok a következők:
+     - Az orientáció zárolása portré módba.
+     - Csak akkor jelenik meg a figyelmeztetés, ha a képernyő szélessége 768px-nél kisebb vagy egyenlő (mobil eszközök).
+     - Ha a kijelzőt elforgatják landscape módba, megjelenik egy üzenet, amely kéri a felhasználót, hogy helyezze vissza a telefonját standby módba (portrait mód).
+     - Ha a kijelzőt visszaállítják portrait módba, az üzenet eltűnik.
+
+\*  ========================================================================  */
 
 // Az orientáció zárolása portré módba.
 function lockPortraitMode() {

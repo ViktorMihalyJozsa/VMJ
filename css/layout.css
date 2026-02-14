@@ -309,8 +309,8 @@ header {
         /* Profil konténer alap beállításai */
         .profile-image {
             position:       relative;
-            top:            -12.5vh;
-            left:           4vh;
+            top:            -15vh;
+            left:           3vh;
 
             width:          24vh;
             height:         24vh;
